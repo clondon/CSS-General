@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+* { font-family: 'Ubuntu', sans-serif;} 
+
+.bkimage {
+  	opacity:0;
+  	animation: fadeIn 5s  0.5s forwards ease-in;
+    background-image: url(http://reyouthroot.com/wp-content/uploads/sexy-blonde.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 132px;
+    background-size: contain;
+}
+.lists li { 
+	list-style: none;  
+	}
+.lists { font-weight: 900;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 26px;
+	text-align: center;}
+	.fa {color: gold; text-shadow: 2px 2px 5px gray, -2px -2px 5px orange; }
+	.lists  { color: black;}
+	/* .line1 { display: none;} */
+	.new-line-height p {
+  	line-height: 5px; color: red;
+}
+.headertext {
+	opacity: 0;
+	animation: fadeIn 5s 0.5s forwards ease-in;
+}
+
+
+.description1 {
+	opacity: 0;
+	animation: fadeIn 5s 0.5s forwards ease-in;
+  	background-color: red;
+  	padding: 5px;
+  	
+  	margin-top: 25%; 
+  	 
+}
+@keyframes fadeIn {
+	100% {
+		opacity:1;
+	}
+}
+.buyonepacket { display:  none; }
+.box1 {	
+		background: white;
+		color: lightgray;
+		opacity: 0.5;		
+		}
+
+.box1:hover {
+    		opacity: 1;
+    		background-color:  	#f5f5f5; /* White Smoke */
+    		color: black;
+    		border: 2px solid #ffeedd;
+    		box-shadow: 1px 1px 5px yellow; 
+    		animation: fadeIn 5s 0.5s forwards ease-in;		
+    		.buyonepacket{display:  inline;	]
+    	}	
+
+.box2 {	
+		background: white;
+		color: black;
+		opacity: 0.5;		
+		}
+
+.box2:hover {
+    		opacity: 1;
+    		background-color: blue;
+    		color: black;
+    		border: 2px solid #ffeedd;
+    		
+    		box-shadow: 1px 1px 5px yellow;
+			}
+
+.box3 { background-color: lightgray ;}
+.box4 { background-color: orange;}
+
+.title2 { 
+	  background-color: #ffee00; 
+} 
+
+.section2 { 
+  background-color: red; 
+}
+
+
+.intro-text { color: white;
+  padding: 20%;
+  overflow: hidden;
+  
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+overflow-wrap: none;
+ word-wrap: none;
+    }
+  .title {font-size: 14px;}
+}
+.first-section {
+  font-size: 12px;
+}
+.section2 {
+  background-color: orange;
+}
+
+
+  
+  .intro-text {
+  	vertical-align: middle;
+	height: 470px;
+	display: table-cell;
+	float: none;
+	
+}
+
+.intro-text::after {
+ content: "";
+  background-image: url(http://reyouthroot.com/wp-content/uploads/reyouthroot-new-packets-sized.jpg);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  opacity: 0.;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;  }
+
+
+#footer-style {  /* Classic footer kept to bottom of screen */
+	background-color: black;
+	color: #fff;
+	position: absolute;
+	margin-bottom: 0;
+	height: 50px;
+	display: table-cell;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+
+@media screen and (max-width: 748px) {
+  .description1 {                      margin-top: 0;
+    color: yellow;
+    background-color: silver;
+    padding: 5px;
+  }
+  .intro-text { color: white; padding: 5px; overflow: hidden;}
+}
