@@ -2,9 +2,9 @@
 * { font-family: 'Ubuntu', sans-serif;} 
 
 .bkimage {
-  	opacity:0;
-  	animation: fadeIn 5s  0.5s forwards ease-in;
-    background-image: url(http://reyouthroot.com/wp-content/uploads/sexy-blonde.png);
+    opacity:0;
+    animation: fadeIn 5s  0.5s forwards ease-in;
+    background-image: url(bg_image);
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 132px;
