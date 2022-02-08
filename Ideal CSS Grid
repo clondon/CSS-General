@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
+   grid-gap: 0px;
+ }
+}
+
+.grid-item {
+ padding: 3rem;
+ text-align: center;
+ border-top: 1px solid #dfdfdf;
+}
+@media (min-width: 768px) {
+ .grid-item {
+   border-top: 1px solid #dfdfdf;
+   border-left: 1px solid #dfdfdf;
+ }
+}
